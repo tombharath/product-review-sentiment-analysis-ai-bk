@@ -8,16 +8,41 @@ By analyzing these reviews, we can identify the intent of why the customer has g
 to do based on the positive comments for their product development and marketing strategies to increase overall sales. This analysis involves efficiently processing large text data using Natural Language Processing 
 to identify the sentiments of the customer review comments. Implementing this model can significantly contribute to increased trust and loyalty with the customer.
 
+**Business Objective**
+
+The business objective is to find a model that predicts customer sentiment based on the review comments. Identifying the intent (feature weight of the words) can provide insights that can contribute to product development, marketing strategies, 
+and improvement of customer services. This type of model can help to increase trust and loyalty with the customer thereby increasing Sales and Customer Satisfaction
+
+**Observations Summary**
+
+- The Random Forests seem to be the best model-based on the above model tunings and results
+
+![Screenshot 2024-07-27 at 6 52 03 PM](https://github.com/user-attachments/assets/923386fa-9516-48e6-a403-cb2d2abe59a6)
+
+- The Feature weights show the top 25 weightage words about the reviews of the products to consider in the product development
+
+![Screenshot 2024-07-27 at 7 05 24 PM](https://github.com/user-attachments/assets/02c6f19a-40aa-480d-ac42-7b74491bf5d9)
+
+- The Positive word cloud shows easy, use, great, and work. It shows the Positive comments are ease of use and work of the product to continue to focus on
+
+![Screenshot 2024-07-27 at 7 06 48 PM](https://github.com/user-attachments/assets/4c2af653-3387-4cd7-8f8d-38be4a041459)
+
+- The Negative word cloud shows the battery, use, tablet, replace, and price. It shows most of the negative comments are based on Battery usage on tablets and price.
+
+![Screenshot 2024-07-27 at 7 08 10 PM](https://github.com/user-attachments/assets/87987150-48b0-4255-a59f-57b6278f9e6c)
+
+**Recommendations**
+
+- The Product team can focus on improving the battery usage on tablets and continue the ease of use of products.
+- The Marketing team can focus on the pricing options to act on the negative feedback
+- The models can be executed after 6 months of a new release to see if addressing the feedback on the product helped the customer sentiment or not.
+- The Future work on developing the Deep Neural Network model to train and check the performance and improvement of the models.
+  
 **Code**
 
 - Refer to [Product-Reviews-Sentiment-Analysis.ipynb](https://github.com/tombharath/product-review-sentiment-analysis-ai-bk/blob/main/Product-Reviews-Sentiment-Analysis.ipynb) jupyter notebook for the code.
 - The code uses Plotly express libraries. As GitHub doesn't display plotly chart correctly. The renderer is used to show it as a picture.
 - You can change the fig.show("png") to fig.show() in the jupyter notebook python code to have the hover functionality while running it.
-
-**Business Objective**
-
-The business objective is to find a model that predicts customer sentiment based on the review comments. Identifying the intent (feature weight of the words) can provide insights that can contribute to product development, marketing strategies, 
-and improvement of customer services. This type of model can help to increase trust and loyalty with the customer thereby increasing Sales and Customer Satisfaction
 
 **Data Understanding**
 
