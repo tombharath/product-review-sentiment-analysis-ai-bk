@@ -15,10 +15,6 @@ and improvement of customer services. This type of model can help to increase tr
 
 **Observations Summary**
 
-- The Random Forests seem to be the best model-based on the above model tunings and results
-
-![Screenshot 2024-07-27 at 6 52 03 PM](https://github.com/user-attachments/assets/923386fa-9516-48e6-a403-cb2d2abe59a6)
-
 - The Feature weights show the top 25 weightage words about the reviews of the products to consider in the product development
 
 ![Screenshot 2024-07-27 at 7 05 24 PM](https://github.com/user-attachments/assets/02c6f19a-40aa-480d-ac42-7b74491bf5d9)
@@ -30,6 +26,10 @@ and improvement of customer services. This type of model can help to increase tr
 - The Negative word cloud shows the battery, use, tablet, replace, and price. It shows most of the negative comments are based on Battery usage on tablets and price.
 
 ![Screenshot 2024-07-27 at 7 08 10 PM](https://github.com/user-attachments/assets/87987150-48b0-4255-a59f-57b6278f9e6c)
+
+- The Random Forests seem to be the best model-based on the  model tunings and results
+
+![Screenshot 2024-07-27 at 6 52 03 PM](https://github.com/user-attachments/assets/923386fa-9516-48e6-a403-cb2d2abe59a6)
 
 **Recommendations**
 
